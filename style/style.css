@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", serif;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+
+.redText {
+  color: #ff0000;
+}
+.borderRight {
+  border-left: 1px solid #e2e0e0;
+  height: 100%;
+}
+
+.headerOuter p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.headerRight ul {
+  list-style: none;
+  height: 100%;
+}
+.headerRight ul a {
+  height: 50px;
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.azadiImg {
+  width: 25%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.feature-icon {
+  color: #c45d3c;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.feature-content {
+  font-size: 14px;
+}
+
+.cardAnimation {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cardAnimation:hover {
+  transform: scale(0.8); /* Shrinks the card */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardAnimation .feature-content span {
+  transition: font-size 0.3s ease; /* Smooth font size transition */
+}
+
+.cardAnimation:hover .feature-content span {
+  font-size: 1em; /* Decrease font size on hover */
+}
+
+.blackBoerder {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 7px;
+  color: black;
+  display: block;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+  cursor: pointer;
+}
+.blackBoerder a {
+  color: black;
+}
+.smallFont {
+  font-size: 14px;
+}
+.discrp p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.setting-icon {
+  color: #c45d3c;
+  font-size: 34px;
+}
+.creambg {
+  background-color: #f9f8f4;
+}
+
+.gapWidth {
+  height: 20px;
+  width: 100%;
+  background-color: #ffecb3;
+}
+.onlineseva a img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.card-link:hover {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  border-color: #007bff;
+}
+
+.card-link img {
+  margin-bottom: 10px;
+}
+
+.card-link span {
+  font-size: 16px;
+  text-align: center;
+}
+
+.firstFooter {
+  background-color: #323333;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #727272;
+  font-size: 14px;
+}
+
+.firstFooter .footerList a {
+  color: #727272; /* Add the desired color */
+  text-decoration: none; /* Optional: Remove underline from links */
+  transition: color 0.3s ease; /* Optional: Add smooth color transition on hover */
+}
+
+.firstFooter .footerList a:hover {
+  color: #007bff; /* Optional: Change color on hover */
+}
+.containers {
+  max-width: 900px;
+  margin: auto;
+}
+.containers p {
+  font-size: 13px;
+  color: white;
+}
+.containers .sfooter img {
+  width: 140px;
+  height: 80px;
+}
+.smallFontP {
+  font-size: 13px;
+  color: white;
+}
+
+.servList a {
+  color: #000;
+  font-size: 14px;
+}
